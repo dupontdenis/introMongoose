@@ -4,13 +4,18 @@ This project demonstrates connecting to MongoDB using Mongoose with native ES Mo
 
 ## Quick start
 
-1. **Configure your MongoDB connection** by editing `.env`:
+1. **Create a `.env` file** in the project root with your MongoDB connection string:
 
    ```env
+   # MongoDB connection string
    MONGODB_URI=mongodb://127.0.0.1:27017/my_database
    ```
 
-   For MongoDB Atlas or other remote instances, replace with your connection string.
+   For MongoDB Atlas or other remote instances, replace with your connection string:
+
+   ```env
+   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/my_database
+   ```
 
 2. **Install dependencies**:
 
