@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "intromongoose",
+  "version": "1.0.0",
+  "description": "Intro Mongoose example using ES modules",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "create": "node create.mjs",
+    "read": "node readAll.mjs",
+    "read-body": "node readBody.mjs",
+    "read-reg": "node readREg.mjs",
+    "read-exp": "node readExp_v2.mjs",
+    "query": "node query.mjs",
+    "read-id": "node readById.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^8.19.3"
+  }
+}

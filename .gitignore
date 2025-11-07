@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Environment variables (contains sensitive data)
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
