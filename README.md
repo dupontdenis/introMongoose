@@ -61,6 +61,17 @@ This project demonstrates connecting to MongoDB using Mongoose with native ES Mo
 - `readById.mjs` — Finds a specific post by MongoDB ObjectId
 - `package.json` — Configured with `"type": "module"` for ES modules
 
+## Query builder example
+
+The `query.mjs` script demonstrates Mongoose's **query builder pattern**, which allows you to construct queries step-by-step before executing them:
+
+1. **Create a query**: `BlogPost.find({})` — finds all posts
+2. **Select fields**: `.select("body")` — returns only the `body` field
+3. **Add conditions**: `.$where("this.body.length <= 20")` — filters posts where body length is 20 characters or less
+4. **Execute**: `.exec()` — runs the query and returns results
+
+This pattern is useful when you need to build dynamic queries based on conditions or when you want to separate query construction from execution.
+
 ## Environment variables
 
 All scripts load environment variables from `.env` via the `dotenv` package:
