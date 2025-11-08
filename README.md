@@ -27,7 +27,7 @@ Or for MongoDB Atlas (cloud database):
 
 ```env
 # MongoDB Atlas connection
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/my_database
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/intro
 ```
 
 ### 2. Install dependencies
