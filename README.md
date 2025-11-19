@@ -80,11 +80,14 @@ npm run read-id
 ### Advanced Queries
 
 | Script           | Technique                       | What It Teaches                                    |
-| ---------------- | ------------------------------- | -------------------------------------------------- | ----------------------- |
+| ---------------- | ------------------------------- | -------------------------------------------------- |
 | `readBody.mjs`   | Regex matching `/message/`      | How to search text fields with regular expressions |
 | `readReg.mjs`    | Regex matching `/mon/`          | More regex pattern examples                        |
 | `readExp_v2.mjs` | Case-insensitive regex `/mon/i` | Using regex flags for flexible searches            |
-| `query.mjs`      | Query builder + `$where`        | How to build complex queries with conditions       | ## 📁 Project Structure |
+| `query.mjs`      | Query builder + `$where`        | How to build complex queries with conditions       | 
+
+
+## 📁 Project Structure |
 
 Understanding the codebase:
 
